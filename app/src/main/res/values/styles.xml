@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- This is the style for the number buttons for the calculator -->
+    <style name="calculator_buttons_numbers">
+        <item name="android:textSize">22sp</item>
+        <item name="android:background">#C0C0C0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!-- This is the style for the sign buttons for the calculator -->
+    <style name = "calculator_buttons_signs">
+        <item name="android:textSize">22sp</item>
+        <item name="android:background">#FF5733</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+
+</resources>
